@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://whispering-stream-10169.herokuapp.com/v1/task/getTasks';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+  const apiRoot = 'https://whispering-stream-10169.herokuapp.com/v1/tasks';
+  const trelloApiRoot = 'https://whispering-stream-10169.herokuapp.com';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
